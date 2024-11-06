@@ -1,0 +1,54 @@
+Proyecto SCRUM
+
+1. Definición de equipo de trabajo
+Developing Creative Thinking - DCT
+Desarrollando Pensamiento Creacional - DPC								
+	Ada Leal Parra
+	Jose Gabriel Álvarez Latorre
+	Marlón Adolfo Chacón Gallo
+	Warllen Steven Romero Rincón
+
+2. Definición de proyecto de trabajo
+	WEB Site nicho de mercado
+ 	1. Insumos de cultivo de Cannabis
+	-Pros: 
+		-Poca oferta
+		-Posibilidad de expansión
+	-Contras:
+		-Alto costo materias primas
+		-Viabilidad legal
+	2. Tienda de periféricos
+	-Pros: 
+		-Mucha demanda
+		-Tasas bajas de importación
+	-Contras:
+		-Gran capital inicial
+		-Saturación de mercado
+	3. Tienda de ropa digital
+	-Pros: 
+		-Rápido retorno de inversión
+		-Cubrimiento nacional
+	-Contras:
+		-Modelo de negocio genérico
+		-Alta competencia
+	4. Fundación Corpoanidescol
+	-Pros: 
+		-Causa social 
+		-Proyecto innovador
+	-Contras:
+		-Baja exposición para futuros proyectos
+		
+3. Objetivo del proyecto
+	La fundación Corpoanidescol se encarga del cuidado y rescate de animales desamparados en el área de metropolitana, nuestro objetivo es el desarrollo de una página web que busque ampliar la visibilidad para fomentar la adopción y recaudación de fondos.
+
+4. Defina los tiempos y el calendario del proyecto
+	-Día 1. Planificación del proyecto 
+	-Día 2. Boceto del proyecto 
+	-Día 3. Estudio documentación Bulma CSS
+	-Día 4 y 5. Desarrollo frontend proyecto
+	-Día 6. Revisión de errores
+	-Día 7. Entrega
+
+5. Se espera desarrollar una página web que cuente con una barra de navegación, un encabezado, una sección de la información de la fundación, una sección de visibilidad de los animales, una sección de donaciones y una sección de contacto.
+
+6. Git: https://github.com/adaptedjose/ProyectoSCRUM

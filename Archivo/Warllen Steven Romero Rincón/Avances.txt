@@ -1,0 +1,2 @@
+DIA 1
+Investigue todo acerca del framekork bulma donde aprendi la forma de usarlo para integrarlo al proyecto

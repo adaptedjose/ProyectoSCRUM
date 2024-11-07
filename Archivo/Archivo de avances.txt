@@ -1,0 +1,10 @@
+Archivo de avances:
+Desde la reunión "Visión del proyecto" se comenzó a bocetar las características y estructuras principales del proyecto a desarrollar en el sprint # 1. Se asignaron labores a cada uno de los miembros del equipo de la siguiente manera:
+Con el uso esperado del framework "Bulma" para desarrollar el proyecto se asignó:
+Desarollador 1 - Warllen Romero
+ a. Estudio, preparación y documentación del framework Bulma
+Desarrollador 2 - Marlon Chacón
+ a. Estudio, preparación y documentación del framework Bulma
+Desarrollador 3 - Ada Leal
+ a. Estudio, preparación y documentación del framework Bulma
+ b. Recolección y creación del banco de imágenes necesarias para el desarrollo del sitio web

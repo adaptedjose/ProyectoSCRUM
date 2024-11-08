@@ -1,0 +1,36 @@
+html{
+    background-color: white;
+}
+
+.img-background{
+    background-image: url("../img/perros.jpg");
+}
+
+.box{
+    align-content: center;
+    background-color: #f02c44;
+    height: 100%;
+}
+
+.contenedor-titulo{
+    background-color: #f02c44;
+}
+
+.columns{
+    padding: 2%;
+}
+
+
+.title {
+    color:white;
+    text-align: center;
+    padding: 2%;
+    font-size: clamp(1em, 3vw, 5em);
+}
+
+
+.subtitle{
+    color: white;
+    padding: 3%;
+    font-size: clamp(1.2em, 1.6vw, 2.6em);
+}

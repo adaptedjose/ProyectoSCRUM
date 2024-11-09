@@ -3,3 +3,6 @@ Documentacion de Bulma
 Instalacion de Bulma 
 Se realizo la investigacion y el estudio 
 Luego un ejercicio de practica 
+
+Dia #2
+Se realizo la descarga de todas las fotos necesarias pra el proyecto

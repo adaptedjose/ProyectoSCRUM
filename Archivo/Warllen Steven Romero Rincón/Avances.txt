@@ -1,2 +1,5 @@
 DIA 1
 Investigue todo acerca del framekork bulma donde aprendi la forma de usarlo para integrarlo al proyecto
+
+Dia 2 
+El dia de hoy quedo lista la seccion de nosotros con cada uno de los requerimientos faltando unicamente las imagenes que se implementara apenas este el banco de imagenes

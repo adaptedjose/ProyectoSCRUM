@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #F02C44;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul li {
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+img {
+    display: flex;
+    width: 80px;
+    height: auto;
+
+    
+    
+    
+
+}

@@ -1,1 +1,2 @@
 Día 1- Se completo satisfactoriamente la documentacion del framework "BULMA", y se realizó un ejercicio de práctica para verificar lo aprendido y estudiado
+Día 2- Se realizó completamente la sección inicio a falta de la sección "nav" y la seccion "footer" para poder anexarla en el html de la sección, por otro lado se comenzo con el proceso de la sección donación

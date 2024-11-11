@@ -3,3 +3,6 @@ Investigue todo acerca del framekork bulma donde aprendi la forma de usarlo para
 
 Dia 2 
 El dia de hoy quedo lista la seccion de nosotros con cada uno de los requerimientos faltando unicamente las imagenes que se implementara apenas este el banco de imagenes
+
+Dia 3-4
+En estos dias se trabajo en el diseño y el avance de renderizacion de la seccion de adopta que cuenta con todos los animales que estan en adopcion

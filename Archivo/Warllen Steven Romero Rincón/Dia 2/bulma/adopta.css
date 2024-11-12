@@ -1,52 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+
 html {
+    font-family: 'Anton SC';
     background-color: #f02c44;
+    font-family: 'Arial', sans-serif;
 }
 
 .img-background {
+    padding: 3%;
     background-color: #f02c44;
 }
 
 .contenedor-titulo {
+    font-family: 'Anton SC';
+    text-align: center;
+    padding-bottom: 2%;
     background-color: #f02c44;
 }
 
-.box{
-    background-color: white;
-    justify-content: center;
-    align-content: center;
-    color: black;
-}
-
 .title {
-    color: black;
+    font-family: 'Anton SC';
+    color: #333;
     text-align: center;
-    padding: 2%;
-    font-size: clamp(1em, 3vw, 5em);
-}
-
-.title-principal{
-    color: white;
+    padding: 1% 0;
+    font-size: clamp(1em, 3vw, 2em);
 }
 
 .subtitle {
+    font-family: 'Anton SC';
     color: black;
     padding: 3%;
     font-size: clamp(1.2em, 1.6vw, 2.6em);
 }
 
-.img-adoptar{
+.title-principal {
+    font-family: 'Anton SC';
+    color: white;
+    font-size: clamp(2em, 5vw, 4em);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.title-perros {
+    font-family: 'Anton SC';
+    font-size: clamp(1.4em, 5vw, 3em);
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: black;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.info-list{
+    font-family: 'Anton SC';
+}
+
+span{
+    font-family: 'Anton SC';
+}
+
+.img-adoptar {
     width: 60%;
-    border-radius: 4px solid black;
+    border-radius: 8px;
+    border: 5px solid black;
+    margin-top: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-adoptar:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .info-list {
     list-style-type: none;
     padding: 0;
-    margin-top: 2%;
+    margin-top: 1rem;
+    font-size: clamp(1em, 1.5vw, 1.2em);
 }
 
 .info-list li {
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
     font-size: clamp(1.2em, 1.6vw, 2.6em);
-    margin-bottom: 2%;
+}
+
+.columns {
+    padding: 2%;
+}
+
+.column {
+    padding: 1rem;
+}
+
+.box{
+        transition: all 0.3s ease;
+}
+
+.img-adoptar {
+    transition: all 0.3s ease;
+}
+
+.cont-icon{
+    margin: 8%;
 }

@@ -6,3 +6,6 @@ El dia de hoy quedo lista la seccion de nosotros con cada uno de los requerimien
 
 Dia 3-4
 En estos dias se trabajo en el diseño y el avance de renderizacion de la seccion de adopta que cuenta con todos los animales que estan en adopcion
+
+Dia 5
+En este dia se agregaron las animaciones a las secciones para que agregar un estilo llamativo a la pagina web

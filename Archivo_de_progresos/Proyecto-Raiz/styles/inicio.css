@@ -1,19 +1,61 @@
-body{
-    background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+body, html{
+    overflow-x: hidden;
 }
-figure{
-    width: 80%;
-}
-.hero {
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), 
-        url('/Archivo/Proyecto-Raiz/Banco_de_imagenes/donacion.jpg');
-    background-position: center;
+/* Estilo para la sección de imagen de fondo */
+.image-section {
+    animation: backgroundSlideshow 15s infinite;
+    background-image: url('/Archivo_de_progresos/Proyecto-Raiz/Banco_de_imagenes/refugio-animal4.jpg'); /* Ruta relativa a la imagen local */
     background-size: cover;
-    height: 95vh;
-    border-radius: 0 0 40% 0%; /* Curvatura en la esquina inferior derecha */
-    border-bottom: solid 4px black;
-    border-right: solid 4px black;
+    background-position: center;
+    height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+@keyframes backgroundSlideshow {
+    0% {
+        background-image: url('/Archivo_de_progresos/Proyecto-Raiz/Banco_de_imagenes/refugio-animal4.jpg');
+    }
+    25% {
+        background-image: url('/Archivo_de_progresos/Proyecto-Raiz/Banco_de_imagenes/donaciones.jpg'); /* Segunda imagen */
+    }
+    50% {
+        background-image: url('/Archivo_de_progresos/Proyecto-Raiz/Banco_de_imagenes/istockphoto-471986112-612x612.jpg');
+    }
+    75% {
+        background-image: url('/Archivo_de_progresos/Proyecto-Raiz/Banco_de_imagenes/rejas.jpg');
+    }
+    100% {
+        background-image: url('/Archivo_de_progresos/Proyecto-Raiz/Banco_de_imagenes/refugio-animal4.jpg');
+    }
+}
+
+/* Superposición oscura para el fondo */
+.image-section .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semitransparente */
+    padding: 20px;
+}
+
+/* Contenido de la imagen con márgenes y tamaño máximo */
+.image-section .content {
+    width: 100%;
+    color: white;
+}
+
+/* Tamaño responsivo para el texto */
+.image-section h1 {
+    font-family: 'Anton SC';
+    line-height: 1.2;
+    letter-spacing: 5px;
+    font-size: clamp(2rem, 5vw, 8rem);
+    color: #ec4e63;
+}
+
+.image-section p {
+    font-size: 1.4em;
 }
 .navbar {
     position: fixed;
@@ -21,36 +63,31 @@ figure{
     left: 0;
     width: 100%;
     z-index: 1000;
-}
-#donaciones{
-    font-size: clamp(2rem, 5vw, 8rem);
-}
-#subtitle{
-    font-size: clamp(1.2rem, 2vw, 4rem);
-}
-#boton1{
-    background-color: #fee501;
-}
-#boton2{
-    background-color: #019535;
-}
-#boton3{
-    background-color: #ed1b26;
-}
-#boton4{
-    background-color: #26c1cb;
-}
-.button:hover{
-    scale:1.05 ; 
-}
-.button{
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-}
-#info{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    border-radius: 5%;
+    opacity: 0.7;
 }
 
+#logo{
+    width: 8%;
+    right: 2%;
+}
+#nombre{
+    font-size: clamp(1.2rem, 2vw, 4rem);
+}
+/* Tamaño de los botones por defecto */
+#boton{
+    background: linear-gradient(to bottom, #ec2b42, #f2f2f2b2);
+    border: none;
+    color: white;
+}
+
+/* Efecto hover */
+#boton:hover{
+    background: linear-gradient(to bottom, #f2f2f2, #ec2b42);
+    color: black;
+    transform: scale(1.05); /* Aumenta el tamaño del botón */
+    
+}
+/* Definimos la animación */
 @keyframes fadeInUp {
     0% {
         opacity: 0;
@@ -81,9 +118,46 @@ figure{
     animation-delay: 1.5s;
 }
 
-
-
-
+/* Tamaño más grande en pantallas de desktop */
+@media screen and (min-width: 1024px) {
+    #boton {
+            padding: 2rem 3rem;
+        }
+    }
+    
+    @media screen and (max-width: 768px) {
+    
+        .image-section h1 {
+            font-size: clamp(2rem, 7vw, 8rem);
+        }
+        #logo{
+            width: 12%;
+            left: 1%;
+        }
+    }
+    
+    @media screen and (max-width: 480px) {
+    
+        .image-section h1 {
+            font-size: clamp(2rem, 5vw, 8rem);
+            text-align: center;
+        }
+    
+        .image-section p {
+            font-size: 1.2em;
+            text-align: center;
+        }
+        .has-text-centered .button{
+            margin-bottom: 10px;
+        }
+        #logo{
+            position: relative;
+            width: 17%;
+            bottom: 5%;
+            left: 40%;
+    
+        }
+    }
 
 
 @import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";

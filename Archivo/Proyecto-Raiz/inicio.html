@@ -15,6 +15,47 @@
     <title>Incio</title>
   </head>
   <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <input type="checkbox" id="toggler" class="navbar-burger" />
+      <label for="toggler" class="navbar-burger"></label>
+      <div class="navbar-brand">
+        <a class="navbar-img" href="#">
+          <img src="/Archivo/Ada Leal Parra/proyecto/corpanides.jpg" />
+        </a>
+      </div>
+
+      <div id="navbarMenu" class="navbar-menu is-active">
+        <div class="navbar-end">
+          <a href="/Archivo/Proyecto-Raiz/inicio.html" class="navbar-item">
+            <span class="icon">
+              <i class="fas fa-home"></i>
+            </span>
+            <span>Inicio</span>
+          </a>
+
+          <a href="/Archivo/Proyecto-Raiz/nosotros.html" class="navbar-item">
+            <span class="icon">
+              <i class="fas fa-info-circle"></i>
+            </span>
+            <span>Nosotros</span>
+          </a>
+
+          <a href="/Archivo/Proyecto-Raiz/adopta.html" class="navbar-item">
+            <span class="icon">
+              <i class="fas fa-paw"></i>
+            </span>
+            <span>Adopta</span>
+          </a>
+
+          <a href="/Archivo/Proyecto-Raiz/donaciones.html" class="navbar-item">
+            <span class="icon">
+              <i class="fas fa-dollar-sign"></i>
+            </span>
+            <span>Donación</span>
+          </a>
+        </div>
+      </div>
+    </nav>
     <section class="section image-section">
       <div class="overlay is-flex is-align-items-center">
         <div class="content has-text-left p-3">
@@ -32,12 +73,16 @@
           </p>
           <br /><br />
           <div class="has-text-centered fade-in-up delay-3">
-            <button class="button is-large is-link mr-5 mb-3 ml-5" id="boton">
+            <a
+              href="/Archivo/Proyecto-Raiz/adopta.html"
+              class="button is-large is-link mr-5 mb-3 ml-5"
+              id="boton"
+            >
               <span class="icon is-large"><i class="fas fa-paw"></i></span>
               <span>ADOPTAR</span>
-            </button>
+            </a>
             <a
-              href="/Archivo/Marlon Adolfo Chacón Gallo/Día-3/donaciones.html"
+              href="/Archivo/Proyecto-Raiz/donaciones.html"
               class="button is-large is-link mb-3 mr-5 ml-5"
               id="boton"
             >
@@ -50,5 +95,114 @@
         </div>
       </div>
     </section>
+    <footer class="footer has-background-dark has-text-white-ter">
+      <div class="content has-text-centered">
+        <div class="columns">
+          <div class="column contact-info">
+            <h3>Contactanos</h3>
+            <p class="has-text-white">
+              <span class="icon">
+                <i class="fas fa-phone-alt"></i>
+              </span>
+              +573166992930
+            </p>
+            <p class="has-text-white">
+              <span class="icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+              corpoanidescol@gmail.com
+            </p>
+            <p class="has-text-white">
+              <span class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              Giron, Santander, vereda llanadas
+            </p>
+            <div class="google-map" style="margin-top: 20px">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3804.7293834334882!2d-73.17361392518875!3d7.080333892922558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683912d1c8f1ad%3A0xa4a3c18d6afaad!2sFundaci%C3%B3n%20Corpoanidescol!5e1!3m2!1ses!2sco!4v1731381028737!5m2!1ses!2sco"
+                width="400"
+                height="300"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="column social-icons">
+            <h3>Encuentranos en</h3>
+            <a
+              href="https://www.facebook.com/corpoanidescol"
+              class="icon is-large has-text-white"
+              target="_blank"
+              aria-label="Facebook"
+            >
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/corpoanidescol/"
+              class="icon is-large has-text-white"
+              target="_blank"
+              aria-label="Instagram"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.tiktok.com/@corpoanidescol?is_from_webapp=1&sender_device=pc"
+              class="icon is-large has-text-white"
+              target="_blank"
+              aria-label="TikTok"
+            >
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=573166992930&text&type=phone_number&app_absent=0"
+              class="icon is-large has-text-white"
+              target="_blank"
+              aria-label="WhatsApp"
+            >
+              <i class="fab fa-whatsapp"></i>
+            </a>
+          </div>
+
+          <div class="column payment-methods">
+            <h3 class="has-text-white">Métodos de pago disponibles</h3>
+            <div class="columns">
+              <div class="column payment-icons">
+                <div class="payment-item">
+                  <img
+                    src="/Archivo/Ada Leal Parra/proyecto/Imagen2.png"
+                    alt="Nequi"
+                    class="nequi-icon"
+                  />
+                </div>
+                <div class="payment-item">
+                  <img
+                    src="/Archivo/Ada Leal Parra/proyecto/Imagen1.png"
+                    alt="Bancolombia"
+                  />
+                </div>
+                <div class="payment-item">
+                  <img
+                    src="/Archivo/Ada Leal Parra/proyecto/Imagen3.png"
+                    alt="Daviplata"
+                  />
+                </div>
+              </div>
+              <div class="column" id="datos">
+                <h4>3166992930</h4>
+                <h4>
+                  Ahorros: <br />
+                  796 503 08595
+                </h4>
+                <h4>3166992930</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

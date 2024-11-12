@@ -7,7 +7,7 @@ figure{
 .hero {
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)), 
-        url('../imagenes/donacion.jpg');
+        url('/Archivo/Proyecto-Raiz/Banco_de_imagenes/donacion.jpg');
     background-position: center;
     background-size: cover;
     height: 95vh;
